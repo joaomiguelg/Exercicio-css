@@ -9,6 +9,7 @@ header {
     padding: 50px;
     background-color: cornflowerblue;
     align-items: center;
+    margin: 0 auto;
 }
 
 nav a {
@@ -24,10 +25,13 @@ nav a {
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-around;
+    margin: 0 auto;
+    
 }
 
 article {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 500px;
     padding: 50px;
     display: flex;
@@ -80,4 +84,10 @@ h2 {
     background-color: dimgray;
     color: white;
     padding-left: 20px;
+}
+
+section, header{
+    max-width: 2560px;
+    margin: 0 auto;
+    width: 100%;
 }
